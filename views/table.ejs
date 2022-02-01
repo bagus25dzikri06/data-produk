@@ -1,0 +1,66 @@
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+      <button
+        type="button"
+        class="btn btn-outline-primary btn-sm"
+        data-toggle="modal"
+        data-target="#add-modal"
+      >
+        Add
+      </button>
+    </div>
+    <div class="card-body">
+      <div class="table-responsive">
+        <table
+          class="table table-bordered"
+          id="dataTable"
+          width="100%"
+          cellspacing="0"
+        >
+          <thead>
+            <tr class='text-center'>
+              <th>Nama Produk</th>
+              <th>Keterangan</th>
+              <th>Harga</th>
+              <th>Jumlah</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="text-center">
+                <a href="#" class="btn btn-outline-warning btn-sm button-update"
+                  >Edit</a
+                >
+                <button type="submit" class="btn btn-outline-danger btn-sm">
+                  Delete
+                </button>
+              </td>
+            </tr>
+          </tbody>
+          <!--tbody>
+            <% for (let i = 0; i < produk.length; i++) {%>
+            <tr>
+              <td><%= produk[i].nama_produk %></td>
+              <td><%= produk[i].keterangan %></td>
+              <td><%= produk[i].harga %></td>
+              <td><%= produk[i].jumlah %></td>
+              <td class="text-center">
+                <a href="#" class="btn btn-outline-warning btn-sm button-update"
+                  >Edit</a
+                >
+                <button type="submit" class="btn btn-outline-danger btn-sm">
+                  Delete
+                </button>
+              </td>
+            </tr>
+            <%} %>
+          </tbody-->
+        </table>
+      </div>
+    </div>
+  </div>
