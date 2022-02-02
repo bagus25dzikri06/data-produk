@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "61fa831d1cd54ab070b04c30"
+  },
+  "nama_produk": "Lenovo ThinkPad X260",
+  "keterangan": "RAM 8GB SSD 512GB",
+  "harga": 7850000,
+  "jumlah": 10
+},{
+  "_id": {
+    "$oid": "61fa84311cd54ab070b04c31"
+  },
+  "nama_produk": "SanDisk Cruzer Blade CZ50",
+  "keterangan": "16GB",
+  "harga": 45200,
+  "jumlah": 24
+}]
